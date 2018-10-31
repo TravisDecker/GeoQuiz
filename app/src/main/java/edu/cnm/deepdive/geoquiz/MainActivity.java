@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
     boolean answerIsTrue = mQuestionBank[mCurrentIndex].isAnswerTrue();
 
     int messageResId = 0;
-
+// TODO Fix cheater toast.
     if (mIsCheater) {
       messageResId = R.string.judgment_toast;
     } else {
